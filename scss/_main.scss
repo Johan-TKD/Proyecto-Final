@@ -21,13 +21,13 @@
 }
 .titular-1{
     padding: 0;
-    h3{
-        text-align: $texalineado;
-        font-size: 30px;
-        background-image: linear-gradient(to top, rgb(126, 23, 126), blue);
-        margin: 30px 42%;
-        color: $colorprimary;
-    }
+    margin-top: 30px;
+    text-align: $texalineado;
+    font-size: 30px;
+    color: $colorprimary;
+    background-image: linear-gradient(to top, rgb(126, 23, 126), blue);
+    position: absolute;
+    left: 45%;
 }
 .centro{
     display: grid;
@@ -64,9 +64,9 @@
 .contacto{
     background-color: grey;
     margin: auto;
-    width: 800px;
+    width: 500px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 8px;
     font-family: monospace;
     padding: 15px;
@@ -94,5 +94,17 @@
     #button:hover{
         cursor: pointer;
         background-color: midnightblue;
+    }
+}
+@media (max-width:750px){
+    .titular-1{
+        left: 43%;
+    }
+    .centro{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contacto{
+        width: 300px;
     }
 }
