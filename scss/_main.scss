@@ -16,17 +16,17 @@
         margin-bottom: 5rem;
     }
     p{
-        font-size: 20px;
+        font-size: $texletra;
     }
 }
 .titular-1{
     padding: 0;
     h3{
-        text-align: center;
+        text-align: $texalineado;
         font-size: 30px;
         background-image: linear-gradient(to top, rgb(126, 23, 126), blue);
         margin: 30px 42%;
-        color: white;
+        color: $colorprimary;
     }
 }
 .centro{
@@ -56,7 +56,7 @@
         }
         span{
             margin-top: 20px;
-            font-size: 20px;
+            font-size: $texletra;
             background-color: cadetblue;
         }
     }
@@ -71,10 +71,10 @@
     font-family: monospace;
     padding: 15px;
     h2{
-        color: black;
+        color: $texalineado;
         margin-bottom: 20px;
-        font-size: 30px;
-        text-align: center;
+        font-size: $texletra;
+        text-align: $texalineado;
     }
     input, textarea{
         width: 100%;
@@ -88,7 +88,7 @@
     }
     #button{
         background-color: #0d2033;
-        color: white;
+        color: $colorprimary;
         padding: 10px;
     }
     #button:hover{
